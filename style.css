@@ -417,6 +417,17 @@ button:hover {
   font-style: italic;
   color: #cfd8e6;
 }
+/* TESTIMONIALS */
+.testimonials {
+  background: rgba(255,255,255,0.05);
+  text-align: center;
+  color: #cfd8e6;
+}
+
+/* EXTRA PADDING FOR TESTIMONIALS */
+.testimonials {
+  padding: 60px 20px;
+}
 
 /* ABOUT PAGE */
 .about {
