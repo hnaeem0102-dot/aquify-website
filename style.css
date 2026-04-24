@@ -17,6 +17,17 @@ body {
   background: #0f2027;
   color: #fff;
 }
+/* HEADINGS */
+h1 {
+  font-size: 42px;
+  color: #8fd3ff;
+}
+
+/* APPLY TEXT SHADOW TO SUBHEADINGS */
+h2, h3 {
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
 
 /* PARAGRAPH LINE HEIGHT */
 p {
