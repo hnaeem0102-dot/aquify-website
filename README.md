@@ -1,2 +1,2 @@
-# aquify-website
+# aquifya-website
 pure and healthy water
