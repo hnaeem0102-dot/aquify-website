@@ -48,6 +48,10 @@ document.querySelectorAll(".nav a").forEach(link => {
     }
   });
 });
+// Back to Top Button
+document.getElementById("backToTop").addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
 
 
 
