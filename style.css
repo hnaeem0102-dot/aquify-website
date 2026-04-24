@@ -214,6 +214,22 @@ button:hover {
 .glass button:hover {
   transform: scale(1.05);
 }
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("hero-bg.jpg") no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+}
+
+/* HERO SHADOW */
+.hero {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
 
 /* ===== AESTHETIC MASONRY GALLERY ===== */
 .gallery {
