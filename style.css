@@ -189,6 +189,29 @@ button:hover {
   filter: brightness(1.05) contrast(1.05);
   box-shadow: 0 15px 35px rgba(143, 211, 255, 0.25);
 }
+/* CONTACT FORM */
+.contact {
+  padding: 40px;
+  text-align: center;
+}
+
+.contact input, .contact textarea {
+  width: 80%;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  background-color: #5f8acb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
 
 /* FOOTER */
 footer {
