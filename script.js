@@ -35,5 +35,19 @@ imgs.forEach(img => {
   img.style.transition = "0.6s ease";
   observer.observe(img);
 });
+// Smooth Scroll for Navigation
+document.querySelectorAll(".nav a").forEach(link => {
+  link.addEventListener("click", e => {
+    e.preventDefault();
+    const targetId = link.getAttribute("href");
+    if (targetId && targetId !== "#") {
+      const target = document.querySelector(targetId);
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  });
+});
+
 
 
