@@ -221,6 +221,15 @@ button:hover {
   font-style: italic;
   color: #cfd8e6;
 }
+.social a {
+  margin: 0 8px;
+  color: #8fd3ff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.social a:hover {
+  color: #ffffff;
+}
 
 
 /* FOOTER */
