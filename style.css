@@ -182,6 +182,13 @@ button:hover {
   column-gap: 18px;
   padding: 60px;
 }
+/* GALLERY HOVER ENHANCEMENT */
+.gallery img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 15px 35px rgba(143, 211, 255, 0.35);
+  filter: brightness(1.05) contrast(1.05);
+}
+
 
 /* IMAGE STYLE WITH AESTHETIC SHADE OVERLAY */
 .gallery img {
