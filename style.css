@@ -342,6 +342,16 @@ button:hover {
   color: #8fd3ff;
   font-weight: bold;
 }
+/* GALLERY */
+.gallery {
+  column-count: 3;
+  gap: 20px;
+}
+
+.gallery img {
+  cursor: pointer;
+}
+
 
 
 /* CONTACT FORM */
