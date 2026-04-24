@@ -68,6 +68,28 @@ body::before {
 .nav a:hover {
   color: #8fd3ff;
 }
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 60px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* ACTIVE NAV LINK */
+.nav a.active {
+  color: #ffffff;
+  font-weight: bold;
+}
+
 
 /* HERO */
 .hero {
