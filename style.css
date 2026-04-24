@@ -226,6 +226,17 @@ button:hover {
   filter: brightness(1.05) contrast(1.05);
   box-shadow: 0 15px 35px rgba(143, 211, 255, 0.25);
 }
+/* GALLERY */
+.gallery {
+  column-count: 3;
+  gap: 20px;
+}
+
+/* FINAL POLISH: Adjust Gallery Padding */
+.gallery {
+  padding: 50px;
+}
+
 /* CONTACT FORM */
 .contact {
   padding: 40px;
