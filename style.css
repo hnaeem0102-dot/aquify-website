@@ -211,6 +211,16 @@ button:hover {
   border-radius: 6px;
   cursor: pointer;
 }
+.testimonials {
+  background: rgba(255,255,255,0.05);
+  padding: 40px;
+  text-align: center;
+}
+.testimonials .review {
+  margin: 15px 0;
+  font-style: italic;
+  color: #cfd8e6;
+}
 
 
 /* FOOTER */
