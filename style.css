@@ -48,6 +48,11 @@ body::before {
   );
   z-index: -1;
 }
+/* GLOBAL IMAGE STYLE */
+img {
+  border-radius: 10px;
+}
+
 
 /* NAV */
 .nav {
