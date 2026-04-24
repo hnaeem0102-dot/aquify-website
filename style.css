@@ -16,6 +16,13 @@ body {
   font-family: Arial, sans-serif;
   background: #0f2027;
   color: #fff;
+  /* GLOBAL BODY STYLE */
+body {
+  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
 }
 /* HEADINGS */
 h1 {
