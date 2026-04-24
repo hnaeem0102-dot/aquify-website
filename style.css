@@ -548,6 +548,20 @@ button:hover {
   color: #000;
   box-shadow: 0 8px 20px rgba(143, 211, 255, 0.4);
 }
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.45);
+  color: #aab7c7;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* FOOTER TEXT STYLE */
+footer p {
+  font-weight: 300;
+}
+
 
 
 
