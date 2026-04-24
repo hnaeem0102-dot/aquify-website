@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Button click
 document.querySelector("button").addEventListener("click", () => {
   alert("💧 Order request received! We will contact you soon.");
@@ -21,3 +22,6 @@ imgs.forEach(img => {
   img.style.transition = "0.6s ease";
   observer.observe(img);
 });
+=======
+
+>>>>>>> 8deb3bb029f68cea520e3b64e90d06ff1b025fc9
