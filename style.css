@@ -258,6 +258,18 @@ button:hover {
 .gallery {
   padding: 50px;
 }
+/* GALLERY */
+.gallery {
+  column-count: 3;
+  gap: 20px;
+}
+
+/* GALLERY CAPTION HOVER */
+.gallery figcaption:hover {
+  color: #8fd3ff;
+  font-weight: bold;
+}
+
 
 /* CONTACT FORM */
 .contact {
