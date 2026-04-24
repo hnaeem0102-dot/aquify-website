@@ -365,6 +365,24 @@ footer {
   color: #aab7c7;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.45);
+  color: #aab7c7;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* FOOTER LINKS */
+footer a {
+  margin: 0 8px;
+}
+footer a:hover {
+  color: #8fd3ff;
+  text-decoration: underline;
+}
+
 
 /* FOOTER */
 footer {
