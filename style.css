@@ -241,5 +241,26 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.45);
+  color: #aab7c7;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .gallery {
+    column-count: 1;
+    padding: 20px;
+  }
+  .nav {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+
 
 
