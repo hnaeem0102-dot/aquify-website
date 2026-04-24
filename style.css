@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* RESET */
 * {
   margin: 0;
@@ -39,6 +39,19 @@ body::before {
 
 /* NAV */
 .nav {
+  .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5f8acb;
+  padding: 10px 20px;
+}
+.nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
   display: flex;
   justify-content: space-between;
   padding: 18px 60px;
@@ -64,6 +77,9 @@ body::before {
 
 /* HERO */
 .hero {
+  background: url('assets/hero-bg.jpg') no-repeat center center/cover;
+}
+.container {
   height: 90vh;
   display: flex;
   justify-content: center;
@@ -95,6 +111,19 @@ body::before {
 }
 
 .glass button {
+  background-color: #28a745;
+  border: none;
+  padding: 12px 24px;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #218838;
+}
+
+ button {
   margin-top: 18px;
   padding: 12px 30px;
   border: none;
@@ -105,6 +134,7 @@ body::before {
   cursor: pointer;
   transition: 0.3s;
 }
+
 
 .glass button:hover {
   transform: scale(1.05);
@@ -156,6 +186,6 @@ footer {
   color: #aab7c7;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
-=======
 
->>>>>>> 8deb3bb029f68cea520e3b64e90d06ff1b025fc9
+
+
