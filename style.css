@@ -230,6 +230,44 @@ button:hover {
 .social a:hover {
   color: #ffffff;
 }
+/* TESTIMONIALS */
+.testimonials {
+  background: rgba(255,255,255,0.05);
+  padding: 40px;
+  text-align: center;
+}
+.testimonials .review {
+  margin: 15px 0;
+  font-style: italic;
+  color: #cfd8e6;
+}
+
+/* ABOUT PAGE */
+.about {
+  text-align: center;
+  padding: 60px;
+}
+.about h1 {
+  font-size: 42px;
+  color: #8fd3ff;
+}
+.about p {
+  margin-top: 20px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #cfd8e6;
+  line-height: 1.6;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.45);
+  color: #aab7c7;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
 
 
 /* FOOTER */
