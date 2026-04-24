@@ -11,6 +11,18 @@ body {
   color: #ffffff;
   overflow-x: hidden;
 }
+/* GLOBAL STYLES */
+body {
+  font-family: Arial, sans-serif;
+  background: #0f2027;
+  color: #fff;
+}
+
+/* PARAGRAPH LINE HEIGHT */
+p {
+  line-height: 1.6;
+}
+
 
 /* VIDEO BACKGROUND */
 .bg-video {
